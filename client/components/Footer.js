@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="row text-center">
           <div class="col-md-4">
             <hr class="light"></hr>
-            <h5>Smiling Teeth Dental</h5>
+            <h5>Somang's Smile</h5>
             <hr class="light"></hr>
             <p>555-555-5555</p>
             <p>smiledental@gmail.com</p>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div class="col-12">
             <hr class="light-100"></hr>
-            <h5>&copy; Smiling Teeth Dental 2022</h5>
+            <h5>&copy; Somang's Smile 2022</h5>
           </div>
         </div>
       </div>

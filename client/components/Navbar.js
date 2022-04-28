@@ -9,7 +9,7 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           {/* <img src="images/logo.png" /> */}
-          Smiling Teeth Dental <i class="fa-solid fa-tooth navbar-tooth"></i>
+          Somang's Smile <i class="fa-solid fa-tooth navbar-tooth"></i>
         </a>
 
         {isLoggedIn ? (

@@ -79,9 +79,9 @@ const LandingPage = () => {
           <hr></hr>
           <div class="col-12">
             <p class="lead">
-              Welcome to Smiling Teeth Dental! We bring brightest smile to you
-              with no pain. Top-tier technologies and skills are here to give
-              you the best dental experience.
+              Welcome to Somang's Smile! We bring brightest smile to you with no
+              pain. Top-tier technologies and skills are here to give you the
+              best dental experience.
             </p>
           </div>
         </div>
@@ -200,8 +200,8 @@ const LandingPage = () => {
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGRlbnRpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
               ></img>
               <div class="card-body">
-                <h4 class="card-title">Doctor 1</h4>
-                <p class="card-text">Doctor is the best dentist ever</p>
+                <h4 class="card-title">Somang Lee-Thacker</h4>
+                <p class="card-text">The greatest dentist in the world</p>
                 <a href="/" class="btn btn-outline-secondary">
                   See Profile
                 </a>
