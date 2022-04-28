@@ -9,34 +9,21 @@ const AuthForm = (props) => {
   const { name, displayName, handleSubmit, error } = props;
 
   return (
-    <div>
+    <div class="d-flex justify-content-center">
       <form onSubmit={handleSubmit} name={name}>
-        <div>
-          <label htmlFor="username">
-            <small>Username</small>
-          </label>
-          <input name="username" type="text" />
+        <div class="form-group col-sm-12">
+          <label htmlFor="username">Username</label>
+          <input name="username" type="text" class="form-control mb-2" />
+        </div>
+
+        <div class="form-group col-sm-12">
+          <label htmlFor="password">Password</label>
+          <input name="password" type="password" class="form-control mb-2" />
         </div>
         <div>
-          <label htmlFor="password">
-            <small>Password</small>
-          </label>
-          <input name="password" type="password" />
-        </div>
-        {/* <div>
-          <label htmlFor="email">
-            <small>Email</small>
-          </label>
-          <input name="email" type="email" />
-        </div>
-        <div>
-          <label htmlFor="phone">
-            <small>Phone</small>
-          </label>
-          <input name="phone" type="phone" />
-        </div> */}
-        <div>
-          <button type="submit">{displayName}</button>
+          <button type="submit" class="">
+            {displayName}
+          </button>
         </div>
         {error && error.response && <div> {error.response.data} </div>}
       </form>

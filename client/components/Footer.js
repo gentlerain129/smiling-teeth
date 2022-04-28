@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer class="fixed-bottom">
       <div id="container-fluid padding">
         <div class="row text-center">
           <div class="col-md-4">
