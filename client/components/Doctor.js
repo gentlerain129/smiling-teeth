@@ -63,7 +63,7 @@ const Doctor = () => {
           <div class="container-fluid padding">
             <div class="row padding">
               <div class="col-lg-6">
-                <h2>Nurse</h2>
+                <h2>Dental Hygienist</h2>
                 <p>
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
