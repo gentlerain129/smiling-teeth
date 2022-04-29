@@ -123,7 +123,7 @@ const LandingPage = () => {
       <div class="container-fluid padding">
         <div class="row padding">
           <div class="col-lg-6">
-            <h2>Office full of beautiful Smile</h2>
+            <h2>Office full of beautiful Smiles</h2>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
