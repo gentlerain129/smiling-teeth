@@ -7,7 +7,7 @@ import { authenticate } from "../store";
  */
 const AuthForm = (props) => {
   const { name, displayName, handleSubmit, error } = props;
-
+  console.log("name", name);
   return (
     <div id="container fluid-padding">
       <div class="d-md-flex justify-content-md-center">
