@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="fixed-bottom">
+    <footer>
       <div id="container-fluid padding">
         <div class="row text-center">
           <div class="col-md-4">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <div class="col-md-4">
             <hr class="light"></hr>
-            <h5>Service Area</h5>
+            <h5>Other Locations</h5>
             <hr class="light"></hr>
             <p>City, State, 11111</p>
             <p>City, State, 11111</p>

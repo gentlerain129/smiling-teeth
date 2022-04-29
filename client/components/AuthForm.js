@@ -9,24 +9,38 @@ const AuthForm = (props) => {
   const { name, displayName, handleSubmit, error } = props;
 
   return (
-    <div class="d-flex justify-content-center">
-      <form onSubmit={handleSubmit} name={name}>
-        <div class="form-group col-sm-12">
-          <label htmlFor="username">Username</label>
-          <input name="username" type="text" class="form-control mb-2" />
-        </div>
+    <div id="container fluid-padding">
+      <div class="d-md-flex justify-content-md-center">
+        <form onSubmit={handleSubmit} name={name}>
+          <div class="form-group p-2">
+            <label htmlFor="username">Username</label>
+            <input name="username" type="text" class="form-control mb-2" />
+          </div>
 
-        <div class="form-group col-sm-12">
-          <label htmlFor="password">Password</label>
-          <input name="password" type="password" class="form-control mb-2" />
+          <div class="form-group p-2">
+            <label htmlFor="password">Password</label>
+            <input name="password" type="password" class="form-control mb-2" />
+          </div>
+          <div class="d-flex justify-content-md-center">
+            <button type="submit" class="btn btn-outline-warning">
+              {displayName}
+            </button>
+          </div>
+          {error && error.response && <div> {error.response.data} </div>}
+        </form>
+      </div>{" "}
+      <div class="container fluid-padding ">
+        <div class="d-md-flex justify-content-md-center">
+          <div class="col-lg-6">
+            <p>New Patient?</p>
+            <br></br>
+            <p>Sign up to be the new Smiling Teeth at Somang's Smile!</p>
+            <a href="/signup" class="btn btn-primary align-self-center">
+              New Patient
+            </a>
+          </div>
         </div>
-        <div>
-          <button type="submit" class="">
-            {displayName}
-          </button>
-        </div>
-        {error && error.response && <div> {error.response.data} </div>}
-      </form>
+      </div>
     </div>
   );
 };

@@ -5,14 +5,15 @@ html, body{
   width: 100%;
   font-family: "poppins", sans-serif;
   color: #222;
-
 }
+
 .navbar-tooth {
   color:#ffdd00;
   font-size: 2.5rem;
 }
 .navbar {
   padding: .8rem;
+  
 }
 
 .navbar-nav li{
@@ -156,6 +157,34 @@ hr.light-100 {
 width: 100%;
 margin-top: .8rem;
 margin-bottom: 1rem;
+}
+
+.contact {
+  color:#000;
+  border: transparent;
+}
+
+.contact:hover {
+background-color: #ffdd00;
+color:#000;
+}
+
+/* Appointment */
+.appointment {
+  width: 100%;
+  margin-bottom: 2rem;
+  border:#9c9797;
+   
+}
+.appointment:hover {
+ background-color:#ffdd00;
+ color: black;
+   
+}
+
+.note {
+  color: red;
+  font-size: small;
 }
 
 /*---Media Queries --*/

@@ -15,19 +15,20 @@ const LandingPage = () => {
           <div class="carousel-item active">
             <img src="https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" />
             <div class="carousel-caption">
-              <h3 class="display-3">A Smiling Dental Experience</h3>
+              <h3 class="display-3">Smile with Confidence</h3>
               <br></br>
               <h4>
                 This is not your typical dental office. We bring latest
                 technologies and skills to give you the best dental experience.
               </h4>
               <br></br>
-              <button
+              <a
+                href="/appointment"
                 type="button"
                 className="btn btn-outline-light btn-lg btn-appt"
               >
                 Book Appointment
-              </button>
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -39,6 +40,13 @@ const LandingPage = () => {
                 Guiding patients to have healthy daily routine to manage one's
                 dental health.
               </h4>
+              <a
+                href="/doctor"
+                type="button"
+                className="btn btn-outline-light btn-lg btn-appt"
+              >
+                Get to know Team Smile
+              </a>
               <br></br>
             </div>
           </div>
@@ -50,6 +58,13 @@ const LandingPage = () => {
               <h4>
                 You will be only treated for what you need. We care about you.
               </h4>
+              <a
+                href="/services"
+                type="button"
+                className="btn btn-outline-light btn-lg btn-appt"
+              >
+                Services and Procedures
+              </a>
               <br></br>
             </div>
           </div>
@@ -108,7 +123,7 @@ const LandingPage = () => {
       <div class="container-fluid padding">
         <div class="row padding">
           <div class="col-lg-6">
-            <h2>If you build it ...</h2>
+            <h2>Office full of beautiful Smile</h2>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -119,7 +134,7 @@ const LandingPage = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
             <br></br>
-            <a href="/" class="btn btn-primary">
+            <a href="/about" class="btn btn-primary">
               Learn More
             </a>
           </div>
@@ -145,47 +160,47 @@ const LandingPage = () => {
         data-target="#emoji"
       >
         Fun Dental Gif
-      </button>
-      <div id="emoji" class="collapse">
-        <div class="container-fluid padding">
-          <div class="row text-center">
-            <div class="col-sm-6 col-md-3">
-              <iframe
-                src="https://giphy.com/embed/gLxFsED6Id9C20MGwN"
-                frameBorder="0"
-                class="gif"
-              ></iframe>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <iframe
-                src="https://giphy.com/embed/JQ4Inb5sgI6XbAj03i"
-                frameBorder="0"
-                class="gif"
-              ></iframe>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <iframe
-                src="https://giphy.com/embed/LRa7So1FwjIDmGtBB4"
-                frameBorder="0"
-                class="gif"
-              ></iframe>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <iframe
-                src="https://giphy.com/embed/26BRMNZa0mmBNUaaY"
-                frameBorder="0"
-                class="gif"
-              ></iframe>
+        <div id="emoji" class="collapse">
+          <div class="container-fluid padding">
+            <div class="row text-center">
+              <div class="col-sm-6 col-md-3">
+                <iframe
+                  src="https://giphy.com/embed/gLxFsED6Id9C20MGwN"
+                  frameBorder="0"
+                  class="gif"
+                ></iframe>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <iframe
+                  src="https://giphy.com/embed/JQ4Inb5sgI6XbAj03i"
+                  frameBorder="0"
+                  class="gif"
+                ></iframe>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <iframe
+                  src="https://giphy.com/embed/LRa7So1FwjIDmGtBB4"
+                  frameBorder="0"
+                  class="gif"
+                ></iframe>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <iframe
+                  src="https://giphy.com/embed/26BRMNZa0mmBNUaaY"
+                  frameBorder="0"
+                  class="gif"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </button>
       <br></br>
       {/* Meet the Team */}
       <div class="container-fluid padding">
         <div class="row welcome text-center">
           <div class="col-12">
-            <h1 class="display-4">Meet the Team</h1>
+            <h1 class="display-4">Meet the Team Smile</h1>
           </div>
           <hr></hr>
         </div>
@@ -202,7 +217,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h4 class="card-title">Somang Lee-Thacker</h4>
                 <p class="card-text">The greatest dentist in the world</p>
-                <a href="/" class="btn btn-outline-secondary">
+                <a href="/doctor" class="btn btn-outline-secondary">
                   See Profile
                 </a>
               </div>
@@ -217,7 +232,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h4 class="card-title">Doctor 2</h4>
                 <p class="card-text">Doctor is the best dentist ever</p>
-                <a href="/" class="btn btn-outline-secondary">
+                <a href="/doctor" class="btn btn-outline-secondary">
                   See Profile
                 </a>
               </div>
@@ -232,7 +247,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h4 class="card-title">Doctor 3</h4>
                 <p class="card-text">Doctor is the best dentist ever</p>
-                <a href="/" class="btn btn-outline-secondary">
+                <a href="/doctor" class="btn btn-outline-secondary">
                   See Profile
                 </a>
               </div>
@@ -245,23 +260,71 @@ const LandingPage = () => {
       <div class="container-fluid padding">
         <div class="row padding">
           <div class="col-lg-6">
-            <h2>Our Philosophy</h2>
+            <h2>General Dentistry</h2>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              General Dentistry Prevention is key to lifelong dental health. But
+              know that it’s never too late to get the care you need! At
+              Somang's Smile, we provide comprehensive and minimally-invasive
+              general dentistry services to prevent, diagnose, and solve common
+              dental problems. Through comfortable, high-tech care, Dr.
+              Lee-Thacker and our team will ensure your pain is relieved,
+              problems resolved, and the health of your smile improved. Our
+              general dental care services include…
             </p>
+            <div class="col-lg-6">
+              <ul class="generalprocedures">
+                <li>Veneers</li>
+                <li>Botox</li>
+                <li>Sleep Apnea</li>
+
+                <li>Invisalign</li>
+                <li>Teeth Whitening</li>
+                <li>Cleanings and Exams</li>
+              </ul>
+            </div>
           </div>
+
           <br></br>
           <div class="col-lg-6">
             <img
               src="https://images.unsplash.com/photo-1612736777093-461fb48101d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-              class="img-fluid"
+              class="img-fluid procedures"
             ></img>
+          </div>
+        </div>
+        <hr class="my-4"></hr>
+      </div>
+      <div class="container-fluid padding">
+        <div class="row padding">
+          <div class="col-lg-6">
+            <img
+              src="https://images.unsplash.com/photo-1612736777093-461fb48101d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              class="img-fluid procedures"
+            ></img>
+          </div>{" "}
+          <br></br>
+          <div class="col-lg-6">
+            <h2>Surgical Dentistry</h2>
+            <p>
+              When emergency dental treatments or surgery are called for, get
+              the expert care you need from a team you know and trust. At
+              Somang's Smile, our team offers advanced surgical dentistry
+              services right here in our Mason dentist office. By using advanced
+              techniques and high-tech equipment, we provide surgical care
+              that’s more comfortable, less invasive, and requires minimal
+              recovery time. Surgical dentistry services include…
+            </p>
+            <div class="col-lg-6">
+              <ul class="surgicalprocedures">
+                <li>Dental Implants</li>
+                <li>Extractions</li>
+                <li>IV Sedation</li>
+
+                <li>Oral Sedation</li>
+                <li>Wisdom Teeth</li>
+                <li>3-D Imagery</li>
+              </ul>
+            </div>
           </div>
         </div>
         <hr class="my-4"></hr>
