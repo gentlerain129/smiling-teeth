@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { logout } from "../store";
 
 const Navbar = ({ handleClick, isLoggedIn, username }) => {
+  console.log("username", username);
+  console.log("isloggedin", isLoggedIn);
   return (
     <div id="navbar-full sticky-top">
       <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -28,9 +30,7 @@ const Navbar = ({ handleClick, isLoggedIn, username }) => {
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav lg-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="/user">
-                      Welcome, {username}
-                    </a>
+                    <a class="nav-link">Welcome, {username}</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/about">
@@ -48,7 +48,7 @@ const Navbar = ({ handleClick, isLoggedIn, username }) => {
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/" onClick={handleClick}>
+                    <a class="nav-link" onClick={handleClick}>
                       Logout
                     </a>
                   </li>
